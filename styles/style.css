@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.banner{
+    height: 814px;
+    background-image: url('../assets/banner.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 80px;
+}
+
+.banner img{
+    width: 214px;
+}
+
+.banner .bannerTitulo{
+    font-family: 'Tinos', serif;
+    margin: 80px 0px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 110%;
+    color: #303536;
+}
+
+.box1 p{
+    text-transform: uppercase;
+}
+
+.box2 p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+}
+.minibox{
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 2px solid #303536;
+    max-width: 750px;
+}
+.box img{
+    width: 25px;
+    padding-left: 50px;
+    margin-top: -30px;
+}
+/* ventajas */
+.ventajas{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.ventajas .col{
+    padding: 20px;
+}
+.ventajas .titulo{
+    color: #1d1d1b;
+    font-size: 36px;
+    font-weight: 500;
+}
+.ventajas .txt{
+    color: #848484;
+    font-size: 14px;
+    margin-top: -20px;
+}
+/* bloc */
+
+.bloc{
+    padding: 80px;
+    display: flex;
+    background-color: #303536;
+    color: #E7E5E4;
+}
+.bloc .col{
+    width: 50%;
+}
+
+.bloc .txtBloc{
+    font-size: 16px;
+}
+
+.tituloBloc{
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: 'Tinos', serif;
+}
+
+.subtituloBloc{
+    font-size: 32px;
+    margin-top: -30px;
+}
+
+/* Que hacemos */
+
+.queHacemos{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 80px;
+    background-color: #E7E7E7;
+}
+
+.queHacemos .tituloQh{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.queHacemos .txt{
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.queHacemos .name{
+font-weight: 500;
+font-size: 16px;
+}
+
+.queHacemos .position{
+font-size: 14px;
+margin-top: -15px;
+margin-bottom: 40px;
+}
+
+hr{
+    background-color: #E7E7E7;
+    border-radius: 1px;
+    height: 2px;
+}
+
+.queHacemos .companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+}
+
+/* Form */
+
+.formulario{
+    background-color: #FFFFFF;
+    padding: 75px;
+}
+
+.formulario .row{
+    display: flex;
+}
+
+.formulario .col {
+    width: 50%;
+}
+
+.formulario .titulo{
+    text-transform: uppercase;
+    color: #F5333F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.formulario .subtitulo{
+    color: #1D1D1B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.form50{
+    width: 50%;
+}
+.form-group {
+    margin-bottom: 15px;
+    
+    margin-right: 10px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    height: 48px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    resize: vertical;
+    height: 180px;
+}
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+.form-group img {
+    vertical-align: middle;
+}
+.terms {
+    display: flex;
+    align-items: center;
+}
+.form-group.terms label {
+    margin-left: 10px; 
+}
+
+.btn-enviar {
+    background-color: #1D1D1B;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.btn-enviar img {
+    margin-left: 20px;
+    width: 20px;
+}
+
+.rowForm{
+    display: flex;
+    width: 100%;
+}
+
+form a{
+    color: #1D1D1B;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.labelTerms{
+    margin-bottom: 0px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #303536;
+    justify-content: center;
+   
+}
+
+footer .row i{
+   font-size: 25px;
+    color: #fff;
+}
+
+.socialMedia{
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+   
+}
+
+.links{
+    color: #E7E7E7;
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.links a{
+    color: #fff;
+    font-size: 14px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.rowFooter{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.rowFooter .col{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.tituloFooter{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.textoFooter{
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.correoFooter{
+    font-size: 16px;
+}
+
+/* media-querys */
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 40px;
+    }
+
+    .banner .bannerTitulo {
+        font-size: 32px;
+        margin: 40px 0;
+    }
+
+    .ventajas {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .ventajas .col {
+        padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ventajas .col .titulo{
+        margin-top: 0px;
+    }
+
+    .bloc {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .bloc .col {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .queHacemos {
+        padding: 40px;
+    }
+
+    .queHacemos .companies {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .queHacemos .companies img {
+        margin-bottom: 20px; 
+    }
+
+    .formulario .row {
+        flex-direction: column;
+    }
+
+    .formulario .col {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .rowFooter {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rowFooter .col {
+        width: 100%;
+    }
+
+    .socialMedia {
+        padding: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        padding-bottom: 10px;
+        
+    }
+
+    footer .rowFooter .col:nth-of-type(2) {
+        margin-top: 40px;
+    }
+    br{
+        display: none;
+    }
+}
+
+@media (min-width: 2500px) {
+    .banner {
+        padding: 80px 500px; 
+    }
+
+    .ventajas {
+        padding: 80px 500px; 
+    }
+
+    .bloc {
+        padding: 80px 500px; 
+    }
+
+    .queHacemos {
+        padding: 80px 500px; 
+    }
+
+    .formulario {
+        padding: 75px 500px; 
+    }
+
+    footer {
+        padding: 0 500px; 
+    }
+
+   
+}
